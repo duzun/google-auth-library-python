@@ -4,6 +4,20 @@
 
 [1]: https://pypi.org/project/google-auth/#history
 
+## [2.23.0](https://github.com/googleapis/google-auth-library-python/compare/v2.22.0...v2.23.0) (2023-08-31)
+
+
+### Features
+
+* Add get_bq_config_path() to _cloud_sdk.py ([9f52f66](https://github.com/googleapis/google-auth-library-python/commit/9f52f665247ada59278ffddaaef3ada9e419154c))
+* Add get_bq_config_path() to _cloud_sdk.py ([#1358](https://github.com/googleapis/google-auth-library-python/issues/1358)) ([9f52f66](https://github.com/googleapis/google-auth-library-python/commit/9f52f665247ada59278ffddaaef3ada9e419154c))
+
+
+### Bug Fixes
+
+* Missing ssj for impersonate cred ([#1377](https://github.com/googleapis/google-auth-library-python/issues/1377)) ([7d453dc](https://github.com/googleapis/google-auth-library-python/commit/7d453dc6408b908e24312a7bd3dc380ad43220be))
+* Skip checking projectid on cred if env var is set ([#1349](https://github.com/googleapis/google-auth-library-python/issues/1349)) ([a4135a3](https://github.com/googleapis/google-auth-library-python/commit/a4135a3e9620a2cbf99957858c13780b92ff707c))
+
 ## [2.22.0](https://github.com/googleapis/google-auth-library-python/compare/v2.21.0...v2.22.0) (2023-07-06)
 
 
